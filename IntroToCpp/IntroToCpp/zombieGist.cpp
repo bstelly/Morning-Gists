@@ -32,6 +32,5 @@ int main()
 		}
 		winner = (remainingZombies > 1) ? false : true;
 	} while (winner == false);
-
 	system("pause");
 }
